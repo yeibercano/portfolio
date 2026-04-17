@@ -98,8 +98,8 @@ nav {
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 8rem 3rem 5rem;
+  justify-content: flex-start;
+  padding: 3rem 3rem 5rem;
   position: relative;
   z-index: 2;
 }
@@ -134,8 +134,8 @@ nav {
 .hero-right {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 8rem 3rem 5rem;
+  justify-content: flex-start;
+  padding: 3rem 3rem 5rem;
   border-left: 1px solid var(--border);
   position: relative;
   z-index: 2;
