@@ -236,7 +236,7 @@ function App() {
 
       {/* Footer */}
       <footer>
-        <p>© 2025 Yeiber Cano</p>
+        <p>© {new Date().getFullYear()} Yeiber Cano</p>
         <p>Software Engineer · San Francisco, CA</p>
         <p>Built with React · Vite</p>
       </footer>
