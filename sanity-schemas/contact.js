@@ -19,7 +19,7 @@ export default {
           type: 'object',
           fields: [
             { name: 'label', type: 'string', title: 'Label' },
-            { name: 'url', type: 'url', title: 'URL' },
+            { name: 'url', type: 'string', title: 'URL' },
             { name: 'value', type: 'string', title: 'Display Value' },
           ],
         },
@@ -35,7 +35,7 @@ export default {
     {
       name: 'ctaLink',
       title: 'CTA Link',
-      type: 'url',
+      type: 'string',
     },
   ],
 }
