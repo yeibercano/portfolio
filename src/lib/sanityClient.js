@@ -1,6 +1,6 @@
-import SanityClient from '@sanity/client'
+import { createClient } from '@sanity/client'
 
-export const sanityClient = SanityClient({
+export const sanityClient = createClient({
   projectId: import.meta.env.VITE_SANITY_PROJECT_ID,
   dataset: import.meta.env.VITE_SANITY_DATASET || 'production',
   useCdn: import.meta.env.VITE_SANITY_USE_CDN === 'true',

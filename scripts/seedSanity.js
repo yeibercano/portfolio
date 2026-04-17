@@ -1,9 +1,9 @@
 import dotenv from 'dotenv'
-import SanityClient from '@sanity/client'
+import { createClient } from '@sanity/client'
 
 dotenv.config()
 
-const client = SanityClient({
+const client = createClient({
   projectId: process.env.VITE_SANITY_PROJECT_ID,
   dataset: process.env.VITE_SANITY_DATASET,
   useCdn: false,
