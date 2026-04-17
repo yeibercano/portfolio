@@ -20,7 +20,6 @@ body {
   font-family: 'DM Mono', monospace;
   font-weight: 300;
   overflow-x: hidden;
-  display: none;
 }
 
 /* Custom cursor */
