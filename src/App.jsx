@@ -65,7 +65,7 @@ function App() {
       {/* Hero */}
       <section id="hero">
         <div className="hero-left">
-          <p className="hero-tag">Frontend Engineer · San Francisco, CA</p>
+          <p className="hero-tag">Software Engineer · San Francisco, CA</p>
           <h1 className="hero-name">Yeiber<span>Cano</span></h1>
         </div>
         <div className="hero-right">
@@ -74,7 +74,6 @@ function App() {
           </p>
           <div className="hero-meta">
             <a href="mailto:yeibercano@gmail.com">yeibercano@gmail.com</a>
-            <a href="tel:4156453617">(415) 645-3617</a>
             <a href="https://github.com/yeibercano" target="_blank" rel="noreferrer">github.com/yeibercano</a>
             <a href="https://linkedin.com/in/yeiber" target="_blank" rel="noreferrer">linkedin.com/in/yeiber</a>
           </div>
@@ -222,10 +221,6 @@ function App() {
               <span className="contact-link-label">LinkedIn</span>
               <span className="contact-link-value">linkedin.com/in/yeiber</span>
             </a>
-            <a href="tel:4156453617" className="contact-link">
-              <span className="contact-link-label">Phone</span>
-              <span className="contact-link-value">(415) 645-3617</span>
-            </a>
           </div>
         </div>
         <div className="contact-right reveal">
@@ -242,7 +237,7 @@ function App() {
       {/* Footer */}
       <footer>
         <p>© 2025 Yeiber Cano</p>
-        <p>Frontend Engineer · San Francisco, CA</p>
+        <p>Software Engineer · San Francisco, CA</p>
         <p>Built with React · Vite</p>
       </footer>
     </>
